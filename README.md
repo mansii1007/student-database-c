@@ -1,30 +1,24 @@
-🎓 Student Management System in C
+# Student Management System in C
 
-A simple console-based Student Management System developed using the C programming language.
-This project allows users to add student records, view all students, search for a student, and delete records using file handling.
+A simple console-based student records program written in C.
+You can add student records, view all students, search for a student, and delete records. Data is saved in a binary file so it is still there after you close the program.
 
-📌 Features
+## Features
 
-Add new student records
+- Add new student records (roll number, name, marks)
+- Store data in `students.dat`
+- View all student details
+- Search students by roll number
+- Delete student records
+- Simple menu-driven interface
 
-Store data permanently using files
+## How to run
 
-View all student details
+```bash
+gcc student_management.c -o students
+./students
+```
 
-Search students by roll number
+## Tech stack
 
-Delete student records
-
-Prevents data loss after program exit
-
-Simple menu-driven interface
-
-🛠️ Tech Stack
-
-C Programming Language
-
-Structures
-
-File Handling (Binary Files)
-
-Standard I/O Library
+C language · structures · binary file handling
